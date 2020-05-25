@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Template</title>
+
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../style/template.css">
+	<link rel="stylesheet" type="text/css" href="../style/menu.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<script src="style/menu.js"></script>
+	
+
+
+	<script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+</script>
+	
+	
+</head>
+	
+<body>
+<div id="wrap">	
+	
+
+<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+ <div></div>
+ <span></span>
+ <span></span>
+ <span></span>
+     </div>
+ 
+     <div class="responsive-menu">
+        <ul>
+           <li>1. Link One</li>
+           <li>2. Link Two</li>
+        </ul>
+     </div>
+</div>
+	
+	<header>
+	<h1><span id="bold">Ace</span> in the Hole</h1>
+	</header>
+	
+	<hr>
+	
+<article id="feed"> 
+
+	</article>
+	
+
+<main>
+	<div id="reservations">
+<form action="contact_forms.php" method="post">
+
+    <input type="text" id="name" name="name" placeholder="Your Full Name">
+    <input type="text" id="mail" name="mail" placeholder="Your Email Address">
+    <textarea id="comment" name="comment" placeholder="Comments/Questions"></textarea>
+    <input type="radio" id="athlete" name="type" value="athlete">
+    <label for="athlete">Athlete</label><br>
+    <input type="radio" id="volunteer" name="type" value="volunteer">
+    <label for="volunteer">Volunteer</label><br>
+    <input type="radio" id="interested_party" name="type" value="interested party">
+    <label for="interested_party">Interested Party</label>
+
+    <button type="submit" name="submit">SEND</button>
+</form>
+	</div>
+</main>
+		
+<footer>
+	<p>Footer Text Here!</p>
+	<p id="p3">555-555-5555</p>
+	</footer>
+</div>
+</body>
+
+
+
+</html>
