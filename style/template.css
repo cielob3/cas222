@@ -1,0 +1,471 @@
+#wrap {
+	min-height: 100vh; 
+ 	overflow: hidden;
+	display: block;
+ 	position: relative;
+ 	padding-bottom: 100px;
+	width: 100%;
+}
+
+
+
+body {
+	height: 100%;
+	position: relative;
+}
+
+
+h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 3em;
+	background-color: white;
+	padding: 50px;
+	margin-top:px;
+	width:50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+
+
+nav {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+
+a:link {
+  color: #6e6e6e;
+}
+
+a:visited {
+  color: #6e6e6e;
+}
+
+a:hover {
+	color: red;
+}
+
+hr {
+	 margin-left: auto;
+  	margin-right: auto;
+	border-style: inset;
+  	border-width: 2px;
+}
+#bold {
+	color: #FF0000;
+}
+
+table, td, tr {
+    margin-left:auto; 
+    margin-right:auto;
+	text-align: left;
+	 border-collapse: collapse;
+	border: 1px solid black;
+	font-family: 'Raleway', sans-serif;
+	padding: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 1.2em;
+	padding: 10px;
+}
+caption {
+	font-size: 2em;
+	margin-top: 10px;
+}
+table{
+	display: inline-block;
+}
+
+#ul{
+	list-style: circle;
+	text-align: left;
+	width: 80%
+}
+
+#ul2 {
+	list-style: disc;
+	text-align: left;
+}
+main ul{
+	text-align: center;
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+	margin: 30px;
+	line-height: 30px;
+}
+
+main li{
+	margin-bottom: 15px;
+}
+
+#feed {
+	visibility: hidden;
+ 	height: 90%;
+  	margin-top: 206px;
+	width: 250px; 
+  	position: absolute; 
+  	top: 0;
+  	right: 0; 
+  	background-color: black; 
+  	overflow-x: hidden; /* Disable horizontal scroll */
+  	//padding-top: 400px;
+ 	font-family: 'Poppins', sans-serif;
+	z-index: 1;
+}
+
+main {
+	width: 100%;
+	text-align: center; 
+	background-color: white;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	position: relative;
+}
+
+#p2{
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	padding-bottom: 30px;
+	text-align: center;
+	margin-right: 20%;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	padding-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+main p {
+	font-family: 'Raleway', sans-serif;
+	color: darkslategrey;
+	width:90%;
+	font-size: 1em;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 0px;
+}
+
+#id2 {
+	width:90%;
+	font-size: 1em;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 0px;
+	clear: right;
+}
+
+.social-icons{
+	display: inline-flex;
+	margin:auto;
+	 display: flex;
+    justify-content: center;	
+}
+
+footer img{
+	width: 40px;
+	padding: 5px;
+}
+
+footer ul{
+	list-style: none;
+}
+
+.image-placeholder1 {
+    background-color: #eee;
+    display: flex;
+    height: 350px;
+    margin: 5px;
+	width: 450px;
+	float: right;
+	margin-left: 30px;
+	margin-right: 50px;
+	visibility:visible; 
+	
+}
+
+.image-placeholder2 {
+ 	background-color: #eee;
+    display: flex;
+    height: auto;
+    margin: 5px;
+	width: 450px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+
+footer{
+	position: absolute;
+	background-color: white;
+	color: black;
+	width:100%;
+	bottom: 0;
+	padding-top: 50px;
+	margin-top: 50px;
+
+}
+footer p {
+	text-align: center;
+	font-size: 2.5em;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	line-height: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#p3 {
+	color: #FF0000;
+}
+
+#reservations {
+	margin-top: 50px;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	display: grid;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+
+textarea {
+	display: grid;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+button {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 10px;
+	margin-top: 10px;
+	background-color: white;
+  color: black;
+  border: 2px solid gray;
+}
+
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align:middle;
+}
+
+fieldset {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border: black solid 0px;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.largecomment{
+	width: 50%;
+	height: 100px;
+}
+
+ @media (min-width: 768px) and (max-width: 1024px){ 
+	 
+	 table {
+		width: 50%;
+		 font-size: 1em;
+	 }
+	 
+	
+	 caption {
+		font-size: 1.5em;
+		margin-top: 10px;
+		}
+
+	 .image-placeholder2  { 
+            margin-bottom: 30px;
+      } 
+	 
+	 #p1, #p2 {
+		margin-top: 50px;
+			 margin-bottom: 100px;
+	 }
+	 
+	 #p1{
+		 width: 80%;
+		 margin-right: auto;
+		 margin-left: auto;
+	 }
+	
+	 #logo{
+		 width: 60%;
+		 margin-left: 20%;
+	 }
+	 
+	 h2{
+		 padding-bottom: 0;
+		 margin-top: 50px;;
+		 font-size: 1.8em;
+		 margin-left: auto;
+		 margin-right: auto;
+		 
+	 }
+	 h3{
+		padding-bottom: 0;
+		 text-align: center;
+		 font-size: 1.3em;
+
+	 }
+	 main p {
+		font-size: 1.2em;
+	 }
+	 
+	 footer{
+		font-size: .5em;
+		padding-top: 30px;
+		
+	 }
+	
+	 #feed{
+		 display: none;
+		 visibility: hidden;
+	 }
+
+   
+} 
+
+ @media (min-width: 1025px){ 
+	  
+	 table {
+		width: 50%;
+	 }
+	 
+	 td{
+		 font-size: .6em;
+	 }
+	
+	 caption {
+		font-size: 1em;
+		margin-top: 0px;
+		}
+	 
+	 #textwidth{
+		width: 800px;
+		  margin-right:auto;
+		  margin-left: auto;
+	 }
+	 
+	 #feed {
+		 visibility: visible;
+		 margin-top: 295px;
+		 position: absolute;
+		 background-color: white;
+		 height: auto;
+	 }
+	 
+	 h1 {
+		 font-size: 3em;
+		 padding-right: 150px;
+	 }
+	 
+	 #logo {
+		 width: auto;
+		 height: 200px;
+		 margin-left: 30%;
+	 }
+	 
+	
+	 
+	 main{
+		width: 90%;
+		 font-size: 1.2em;
+		 margin-right:100px;
+		 margin-right: auto;
+		 position: relative;
+		 margin-top: 0;
+	 }
+	 
+	 main p {
+		 max-width: 800px;
+		 margin-right: auto;
+		 margin-left:auto;
+	 }
+	 
+	 main ul{
+		 padding-left: 130px;
+	 }
+	 main li{
+		 width: 800px;
+		 margin-right: auto;
+		 margin-left: auto;
+	 }
+	 
+	 
+	 
+	 #p1, #p2 {
+		 text-align: center;
+		 
+	 }
+	
+	 footer {
+		 width: 100%;
+		 padding: 0;
+		 bottom: 0;
+		margin-left: -65px;
+	 }
+	 
+	 footer p {
+		 font-size: .8em;
+	 }
+	 
+	 .social-icons{
+		 margin-left: -30px;
+	 }
+	 
+	 h2 {
+ 		text-align: center;
+		 padding: 0;
+		 margin-right: auto;
+	 }
+	 
+	 h3 {
+		padding-top: 30px;
+		 padding-bottom: 0;
+	 }
+	 
+	 .image-placeholder1 {
+		 float: none;
+		 margin-right: auto;
+		 margin-left: auto;	
+		 width:800px;
+		 margin-top: 50px;
+		 visibility: hidden;
+		 
+	 }
+	 
+	 .image-placeholder2 {
+		 display: none;
+	 }
+	 
